@@ -2,6 +2,8 @@
 import arxiv
 import os
 import argparse
+import ssl
+ssl._create_default_https_context = ssl._create_unverified_context
 
 def download_papers(paper_ids, download_path):
     """
@@ -17,13 +19,10 @@ def download_papers(paper_ids, download_path):
 
     print(f"Downloading {len(paper_ids)} papers to {download_path}...")
 
-    # Construct the client
     client = arxiv.Client()
     
-    # Perform a search for the paper IDs
     search = arxiv.Search(id_list=paper_ids)
     
-    # Download the papers
     for result in client.results(search):
         pdf_filename = f"{result.entry_id.split('/')[-1]}.pdf"
         print(f"Downloading '{result.title}' as {pdf_filename}...")

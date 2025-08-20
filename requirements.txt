@@ -24,3 +24,5 @@ rank-bm25
 python-dotenv
 
 arxiv
+
+sentence-transformers
