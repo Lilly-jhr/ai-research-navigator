@@ -1,0 +1,26 @@
+# Core framework
+langchain
+langchain-community
+
+# For UI
+streamlit
+
+# For LLMs and Embeddings
+langchain-groq
+langchain-huggingface
+
+# For Reranker
+langchain-cohere
+cohere
+
+# For Vector Store and Document Handling
+faiss-cpu
+pypdf
+
+# For Sparse Retrieval (BM25)
+rank-bm25
+
+# For managing environment variables
+python-dotenv
+
+arxiv
