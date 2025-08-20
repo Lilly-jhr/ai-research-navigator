@@ -1,0 +1,2 @@
+vectorstores/**/*.faiss filter=lfs diff=lfs merge=lfs -text
+vectorstores/**/*.pkl filter=lfs diff=lfs merge=lfs -text
