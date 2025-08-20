@@ -4,7 +4,7 @@
 
 ---
 
-### 🚀 **** 👈 *(Paste your Streamlit Community Cloud or Hugging Face Spaces URL here)*
+### 🚀 **[ https://ai-research-navigator-yanta94pmu9szkuv9ruqr8.streamlit.app/ ]** 👈 
 
 ---
 
